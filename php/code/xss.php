@@ -1,3 +1,4 @@
 <?php
 
-echo $_GET['text'];
+$name = $_GET["name"];
+echo "Welcome $name"; // Noncompliant

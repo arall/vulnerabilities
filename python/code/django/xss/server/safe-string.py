@@ -1,0 +1,1 @@
+SafeString(f"<div>{request.POST.get('name')}</div>")

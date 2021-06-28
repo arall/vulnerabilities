@@ -1,0 +1,11 @@
+<provider
+  android:authorities="com.example.myapp.MyProvider1"
+  android:name="com.example.myapp.MyProvider1"
+  android:exported="true"
+  android:readPermission="com.example.myapp.READ_PERMISSION" />  <!-- Noncompliant: write permission is not defined -->
+
+<provider
+  android:authorities="com.example.myapp.MyProvider2"
+  android:name="com.example.myapp.MyProvider2"
+  android:exported="true"
+  android:writePermission="com.example.myapp.WRITE_PERMISSION" />  <!-- Noncompliant: read permission is not defined -->

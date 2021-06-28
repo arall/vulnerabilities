@@ -10,3 +10,4 @@ If you plan to host this, make sure only /web is reachable!
 
 # Sources
 - https://rules.sonarsource.com/
+- https://semgrep.dev/docs/cheat-sheets

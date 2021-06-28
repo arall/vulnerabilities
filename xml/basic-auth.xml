@@ -1,0 +1,7 @@
+// in web.xml
+<web-app  ...>
+  <!--  ...  -->
+  <login-config>
+    <auth-method>BASIC</auth-method>
+  </login-config>
+</web-app>

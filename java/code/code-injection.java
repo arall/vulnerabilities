@@ -3,5 +3,5 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IO
 
   ScriptEngineManager manager = new ScriptEngineManager();
   ScriptEngine engine = manager.getEngineByName("JavaScript");
-  engine.eval(input);
+  engine.eval(input); // Noncompliant
 }

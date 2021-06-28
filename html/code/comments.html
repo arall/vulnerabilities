@@ -1,0 +1,9 @@
+<%
+      out.write("<!-- ${username} -->");  // Sensitive
+  %>
+      <!-- <% out.write(userId) %> -->  // Sensitive
+      <!-- #{userPhone} -->  // Sensitive
+      <!-- ${userAddress} --> // Sensitive
+
+      <!-- Replace 'world' with name --> // Sensitive
+      <h2>Hello world!</h2>

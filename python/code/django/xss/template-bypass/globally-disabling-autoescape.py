@@ -1,0 +1,6 @@
+TEMPLATES = [
+  {
+    ...,
+    'OPTIONS': {'autoescape': False}
+  }
+]

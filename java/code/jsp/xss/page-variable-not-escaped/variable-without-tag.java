@@ -1,0 +1,1 @@
+<div>${userObj.name}</div>

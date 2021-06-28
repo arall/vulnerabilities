@@ -1,0 +1,6 @@
+<activity android:name="com.example.activity1">  <!-- Noncompliant: permissions are not defined -->
+  <intent-filter>
+    <action android:name="com.example.OPEN_UI"/>
+    <category android:name="android.intent.category.DEFAULT"/>
+  </intent-filter>
+</activity>

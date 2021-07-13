@@ -1,6 +1,5 @@
 <?php
 
-<?php
 // mcrypt_encrypt is deprecated since PHP 7.1
 $c1 = mcrypt_encrypt(MCRYPT_DES, $key, $plaintext, $mode);  // Noncompliant: DES works with 56-bit keys allow attacks via exhaustive search
 $c2 = mcrypt_encrypt(MCRYPT_DES_COMPAT, $key, $plaintext, $mode); // Noncompliant: DES works with 56-bit keys allow attacks via exhaustive search

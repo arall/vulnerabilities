@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+  - name: c1
+    securityContext:
+      capabilities:
+        add:
+          - SYS_ADMIN
+          - SYS_TIME
+  - name: c2
+    securityContext:
+      capabilities:
+  - name: c3

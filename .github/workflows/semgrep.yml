@@ -26,6 +26,8 @@ jobs:
       - uses: returntocorp/semgrep-action@v1
         with:
           config: >- # more at semgrep.dev/explore
+            p/ci
+            p/owasp-top-ten
             p/security-audit
             p/secrets
 

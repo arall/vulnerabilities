@@ -9,15 +9,26 @@
 	<name>Vulnerable repository</name>
 
 	<dependencies>
+		<!-- Direct dependency vulnerabilities -->
 		<dependency>
+			<!-- CVE-2021-20190 -->
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.9.2</version>
 		</dependency>
         <dependency>
+			<!-- CVE-2021-45105 -->
     		<groupId>org.apache.logging.log4j</groupId>
     		<artifactId>log4j-core</artifactId>
     		<version>2.10.0</version>
+    	</dependency>
+		<!-- Inherit dependency vulnerabilities -->
+        <dependency>
+			<!-- Direct: (spring4shell) CVE-2022-27772 -->
+			<!-- Inherit: (snakeyaml) CVE-2022-38752 -->
+			<groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+    		<version>2.2.10</version>
     	</dependency>
     </dependencies>
 </project>

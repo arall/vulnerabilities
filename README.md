@@ -33,7 +33,7 @@ If you plan to host this, make sure only /web is reachable!
 * php
   * composer (`composer.lock` & `composer.json`)
     * phpmailer/phpmaile 6.4.1
-      * league/flysystem 1.1.3 ("forced" inherit dependency vulnerability)
+    * league/flysystem 1.1.3 ("forced" inherit dependency vulnerability)
 * python
   * pip (`requirements.txt`)
     * tendenci 12.0.10

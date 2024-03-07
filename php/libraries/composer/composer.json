@@ -1,5 +1,6 @@
 {
     "require": {
-        "phpmailer/phpmailer": "6.4.1"
+        "phpmailer/phpmailer": "6.4.1",
+        "laravel/laravel": "8.6.10"
     }
 }
